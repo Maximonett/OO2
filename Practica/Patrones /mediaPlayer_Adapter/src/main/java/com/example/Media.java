@@ -1,5 +1,7 @@
+package com.example;
+
 public abstract class Media {
 
-    public abstract voin play();
+    public abstract void play();
 }
 

@@ -1,3 +1,6 @@
+package com.example;
+
+
 public class VideoStreamAdapter extends Media{
     private VideoStream videoStream;
 
