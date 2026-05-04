@@ -1,14 +1,13 @@
 package com.example;
 
-public class Temporario extends Empleado {
-    
-    public Temporario(double horasTrabajadas,boolean estadoCivil, int cantidadHijos) {
-        super(horasTrabajadas, estadoCivil, cantidadHijos);
+public class Planta extends Empleado {
+    int antiguedad;
+
+    public Planta(double horasTrabajadas,boolean estadoCivil, int cantidadHijos, int antiguedad) {
+        super(0, estadoCivil, cantidadHijos);
+        this.antiguedad = antiguedad;
     }   
 
-    public void setHorasTrabajadas(double horas) {
-        this.horasTrabajadas = horas;
-    }
 
     @Override
     public double calcularSueldo() {
@@ -17,7 +16,7 @@ public class Temporario extends Empleado {
 
     @Override
     public double Basico() {
-        return 20000 + (this.horasTrabajadas * 300);
+        return 50000;
     }    
 
     @Override
@@ -26,7 +25,8 @@ public class Temporario extends Empleado {
         if (this.estadoCivil) {
             adicionales += 5000;
         }
-        return adicionales + (this.cantidadHijos * 2000);
+        
+        return adicionales + (this.cantidadHijos * 2000)+(this.antiguedad * 2000);
     }
 
     @Override
@@ -36,6 +36,5 @@ public class Temporario extends Empleado {
         descuentos += this.Adicionales() * 0.05;
         return descuentos;
     }
-
 
 }
