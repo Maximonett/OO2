@@ -10,9 +10,9 @@ public class VegetarianoBuilder implements SandwichBuilder{
     @Override
     public void buildAderezo(){/*Sin Aderezo*/}
     @Override
-    public void buildPricipal(){sandwich.addIngrediente(new Ingrediente("Provoleta Grillada", 200));}
+    public void buildPrincipal(){sandwich.addIngrediente(new Ingrediente("Provoleta Grillada", 200));}
     @Override
-    public void buildAdiciona(){sandwich.addIngrediente(new Ingrediente("Berenjena al escabeche", 100));}
+    public void buildAdicional(){sandwich.addIngrediente(new Ingrediente("Berenjena al escabeche", 100));}
     @Override
     public Sandwich getSandwich(){return this.sandwich; }
 

@@ -5,7 +5,7 @@ public class Sandwichero {
         builder.reset();
         builder.buildPan();
         builder.buildAderezo();
-        builder.buildPricipal();
-        builder.buildAdicionl()
+        builder.buildPrincipal();
+        builder.buildAdicional();
     }
 }

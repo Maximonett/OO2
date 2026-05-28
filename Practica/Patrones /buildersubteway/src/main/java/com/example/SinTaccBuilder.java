@@ -11,9 +11,9 @@ public class SinTaccBuilder implements SandwichBuilder {
     @Override
     public void buildAderezo(){sandwich.addIngrediente(new Ingrediente("Salsa Tartara", 18));}
     @Override
-    public void buildPricipal(){sandwich.addIngrediente(new Ingrediente("Carne de Pollo", 250));}
+    public void buildPrincipal(){sandwich.addIngrediente(new Ingrediente("Carne de Pollo", 250));}
     @Override
-    public void buildAdiciona(){sandwich.addIngrediente(new Ingrediente("Verduras grilladas", 200));}
+    public void buildAdicional(){sandwich.addIngrediente(new Ingrediente("Verduras grilladas", 200));}
     @Override
     public Sandwich getSandwich(){return this.sandwich; }
 

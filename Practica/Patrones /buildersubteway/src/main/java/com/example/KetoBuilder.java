@@ -11,9 +11,9 @@ public class KetoBuilder implements SandwichBuilder {
     @Override
     public void buildAderezo(){sandwich.addIngrediente(new Ingrediente("Mayonesa de oliva", 20));}
     @Override
-    public void buildPricipal(){sandwich.addIngrediente(new Ingrediente("Doble hamburguesa de carne", 450));}
+    public void buildPrincipal(){sandwich.addIngrediente(new Ingrediente("Doble hamburguesa de carne", 450));}
     @Override
-    public void buildAdiciona(){sandwich.addIngrediente(new Ingrediente("Huevo frito y panceta", 150));}
+    public void buildAdicional(){sandwich.addIngrediente(new Ingrediente("Huevo frito y panceta", 150));}
     @Override
     public Sandwich getSandwich(){return this.sandwich; }
 

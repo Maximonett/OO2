@@ -11,9 +11,9 @@ public class ClasicoBuilder implements SandwichBuilder {
     @Override
     public void buildAderezo(){sandwich.addIngrediente(new Ingrediente("Aderezo a base de Mayonesa", 20));}
     @Override
-    public void buildPricipal(){sandwich.addIngrediente(new Ingrediente("Carne de Terner", 300));}
+    public void buildPrincipal(){sandwich.addIngrediente(new Ingrediente("Carne de Ternera", 300));}
     @Override
-    public void buildAdiciona(){sandwich.addIngrediente(new Ingrediente("Tomate", 80));}
+    public void buildAdicional(){sandwich.addIngrediente(new Ingrediente("Tomate", 80));}
     @Override
     public Sandwich getSandwich(){return this.sandwich; }
 
