@@ -11,6 +11,7 @@ public class Decodificador {
 
     public Decodificador(){
         this.grilla=new ArrayList<>();
+        
         this.reproducidas=new ArrayList<>();
     }
 
