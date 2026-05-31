@@ -12,11 +12,13 @@ public class Main {
         // 2. Cancelación (1 día antes)
         LocalDate fechaCancelacion = fechaReserva.minusDays(1);
 
+        Usuario conductor = new Usuario("Juan");
+
         // 3. Auto con política flexible
         AutoEnAlquiler auto = new AutoEnAlquiler(100, 5, "Toyota", new PoliticaFlexible());
 
         // 4. Reserva (10 días)
-        Reserva miReserva = new Reserva(10, fechaReserva, auto);
+        Reserva miReserva = new Reserva(10, fechaReserva, auto, conductor);
 
         System.out.println("--- Escenario 1: Política Flexible ---");
         double reembolsoFlexible = miReserva.montoAReembolsar(fechaCancelacion);
