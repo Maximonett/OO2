@@ -34,4 +34,14 @@ public class Mensajero {
     public void setClave(String clave) {
         this.claveActual = clave;
     }
+
+    public String cifrarParaPrueba(String mensaje) {
+        // Verifica que haya una clave configurada
+        if (this.claveActual == null) {
+            throw new RuntimeException("Error: Debes configurar una clave antes de cifrar.");
+        }
+
+        // Usa directamente la estrategia actual para cifrar y devuelve el resultado
+        return this.cipher.encrypt(mensaje, this.claveActual);
+    }
 }
