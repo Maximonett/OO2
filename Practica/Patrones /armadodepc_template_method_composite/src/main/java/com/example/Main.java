@@ -37,7 +37,8 @@ public class Main {
         catalogo.agregarComponente(new Componente("Fuente 800W", "Fuente 800W", 35000, 0));
 
         // Fuentes dinámicas para Gamer (consumo * 1.5)
-        // Consumo Gamer: 125 + 5 + 5 + 5 + 5 + 450 + 0 + 0 + 10 = 605 -> 605 * 1.5 = 907
+        // Consumo Gamer: 125 + 5 + 5 + 5 + 5 + 450 + 0 + 0 + 10 = 605 -> 605 * 1.5 =
+        // 907
         catalogo.agregarComponente(new Componente("Fuente 907W", "fuente 907 w", 45000, 0));
 
         // ============================
