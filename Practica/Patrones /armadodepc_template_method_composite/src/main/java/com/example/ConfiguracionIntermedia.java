@@ -1,9 +1,5 @@
 package com.example;
 
-package com.example;
-
-import java.awt.Component;
-
 public class ConfiguracionIntermedia extends ConfiguracionPC {
 
     public ConfiguracionIntermedia(Catalogo catalogo) {

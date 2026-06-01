@@ -1,7 +1,5 @@
 package com.example;
 
-import java.awt.Component;
-
 public class ConfiguracionBasica extends ConfiguracionPC {
 
     public ConfiguracionBasica(Catalogo catalogo) {
@@ -20,14 +18,17 @@ public class ConfiguracionBasica extends ConfiguracionPC {
                 catalogo.getComponente("8 gb"));
     }
 
+    @Override
     protected void agregarDisco(Equipo equipo) {
         equipo.agregar(catalogo.getComponente("HHD 500Gb"));
     }
 
+    @Override
     protected void agregarGrafica(Equipo equipo) {
         equipo.agregar(catalogo.getComponente("No posse(integrada)"));
     }
 
+    @Override
     protected void agregarGabinete(Equipo equipo) {
         equipo.agregar(catalogo.getComponente("Gabinete Estandar"));
     }

@@ -16,4 +16,8 @@ public class Catalogo {
                 .findFirst()
                 .orElse(null);
     }
+
+    public void agregarComponente(Componente componente) {
+        componentes.add(componente);
+    }
 }

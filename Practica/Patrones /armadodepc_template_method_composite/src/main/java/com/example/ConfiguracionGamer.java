@@ -1,7 +1,5 @@
 package com.example;
 
-import java.awt.Component;
-
 public class ConfiguracionGamer extends ConfiguracionPC {
 
     public ConfiguracionGamer(Catalogo catalogo) {
@@ -38,9 +36,9 @@ public class ConfiguracionGamer extends ConfiguracionPC {
     protected void agregarExtras(Equipo equipo) {
         equipo.agregar(catalogo.getComponente("pad termico"));
         equipo.agregar(catalogo.getComponente("cooler"));
-        int fuente= (int)(equipo.getConsumo()*1.5);
+        int fuente = (int) (equipo.getConsumo() * 1.5);
 
-        equipo.agregar(catalogo.getComponente("fuente " + fuente + " w");
+        equipo.agregar(catalogo.getComponente("fuente " + fuente + " w"));
     }
 
 }
