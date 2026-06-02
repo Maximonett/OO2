@@ -12,6 +12,6 @@ public class EstadoCompleto implements EstadoExcursion {
     @Override
     public String obtenerInformacion(Excursion excursion) {
         return "Excursión: " + excursion.getNombre() +
-                " | Estado: COMPLETA (Cupo Máximo Alcanzado)";
+                " | Estado: COMPLETO (Cupo Máximo Alcanzado)";
     }
 }

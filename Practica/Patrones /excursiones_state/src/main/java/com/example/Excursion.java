@@ -16,6 +16,12 @@ public class Excursion {
     private List<Usuario> listaEspera;
     private EstadoExcursion estado;
 
+    public Excursion(String nombre, int cupoMinimo, int cupoMaximo) {
+        this.nombre = nombre;
+        this.cupoMinimo = cupoMinimo;
+        this.cupoMaximo = cupoMaximo;
+    }
+
     public Excursion(String nombre, LocalDate fechaInicio, LocalDate fechaFin, String puntoEncuentro,
             double costo, int cupoMinimo, int cupoMaximo) {
         this.nombre = nombre;
