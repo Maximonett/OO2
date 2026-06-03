@@ -7,14 +7,13 @@ public class WifiConn implements Connection {
         this.pict = "🛜";
     }
 
-}
-
     @Override
     public String sendData(String data, Integer crc) {
-        return "Wifi enviado " + data + "CRC: " + crc;
+        return "WiFi enviando: " + data + " CRC: " + crc;
     }
 
-@Override 
-public String pict(){
-    return pict;
+    @Override
+    public String pict() {
+        return pict;
+    }
 }

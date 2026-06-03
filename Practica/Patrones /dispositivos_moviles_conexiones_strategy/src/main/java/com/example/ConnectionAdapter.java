@@ -1,11 +1,10 @@
 package com.example;
 
 public class ConnectionAdapter implements Connection {
-    private 4
-    GConnection connection4G;
+    private Connection4G connection4G;
 
-    public ConnectionAdapter(4GConnection connection4G){
-        this.connection4G=connection4G;
+    public ConnectionAdapter(Connection4G connection4G) {
+        this.connection4G = connection4G;
     }
 
     @Override

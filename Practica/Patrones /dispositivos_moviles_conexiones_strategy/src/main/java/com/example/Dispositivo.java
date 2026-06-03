@@ -13,6 +13,11 @@ public class Dispositivo {
         this.display = display;
     }
 
+    public Dispositivo(Connection connection, CRCCalculator crcCalculator) {
+        this.connection = connection;
+        this.crcCalculator = crcCalculator;
+    }
+
     public String send(String data) {
         long crc = this.crcCalculator.crcFor(data);
         return this.connection.sendData(data, (int) crc);
