@@ -1,0 +1,9 @@
+ar/edu/info/oo2/filtros/imageFilters/Dull.class
+ar/edu/info/oo2/filtros/imageFilters/Filter.class
+ar/edu/info/oo2/filtros/imageFilters/RGBShiftRepeater.class
+ar/edu/info/oo2/filtros/imageFilters/Artifacter.class
+ar/edu/info/oo2/filtros/imageFilters/Rainbow.class
+ar/edu/info/oo2/filtros/imageFilters/RGBShifter.class
+ar/edu/info/oo2/filtros/PNGFilterLauncher.class
+ar/edu/info/oo2/filtros/imageFilters/Monochrome.class
+ar/edu/info/oo2/filtros/imageFilters/Repeater.class
