@@ -1,3 +1,5 @@
+package com.example;
+
 public abstract class ElementoRed {
 
     private String nombre;

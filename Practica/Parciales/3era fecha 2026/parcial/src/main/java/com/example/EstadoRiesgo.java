@@ -1,3 +1,5 @@
+package com.example;
+
 public interface EstadoRiesgo {
 
     void actualizar(Zona zona, double co2);

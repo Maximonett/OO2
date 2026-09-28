@@ -88,15 +88,7 @@ public class Zona extends ElementoRed {
     }
 
     public void cambiarEstado(EstadoRiesgo nuevoEstado) {
-
-        if (estado.nombre().equals(nuevoEstado.nombre())) {
-
-            return;
-        }
-
-        estado = nuevoEstado;
-
-        estado.entrar(this);
+        this.estado=nuevoEstado;
     }
 
     public EstadoRiesgo getEstado() {

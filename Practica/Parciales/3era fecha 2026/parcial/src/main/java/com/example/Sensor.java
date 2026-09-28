@@ -1,3 +1,5 @@
+package com.example;
+
 public class Sensor extends ElementoRed {
 
     private double valorCO2;

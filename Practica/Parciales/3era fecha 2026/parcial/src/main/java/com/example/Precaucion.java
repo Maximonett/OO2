@@ -6,16 +6,19 @@ public class Precaucion implements EstadoRiesgo {
     public void actualizar(Zona zona, double co2) {
 
         if (co2 >= 1200) {
-
-            zona.cambiarEstado(new Emergencia());
+            EstadoRiesgo e =new Emergencia();
+            zona.cambiarEstado(e);
+            e.entrar(zona);
 
         } else if (co2 >= 800) {
-
-            zona.cambiarEstado(new Alerta());
+            EstadoRiesgo  e=new Alerta();
+            zona.cambiarEstado(e);
+            e.entrar(zona);
 
         } else if (co2 < 500) {
-
+            EstadoRiesgo e=new Normal()
             zona.cambiarEstado(new Normal());
+            e.entrar(zona);
         }
     }
 
