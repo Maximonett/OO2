@@ -1,4 +1,4 @@
-## 1. Smell: Ambas ramas del condicional son iguales
+### 1. Smell: Ambas ramas del condicional son iguales
 En el primer árbol, el operador ternario está representado por el nodo expr:20. El objetivo es comparar el nodo de la rama "verdadera" con el nodo de la rama "falsa".
 ```JavaScript
 
