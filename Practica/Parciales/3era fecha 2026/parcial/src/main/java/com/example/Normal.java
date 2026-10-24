@@ -16,7 +16,7 @@ public class Normal implements EstadoRiesgo {
             e.entrar(zona);
 
         } else if (co2 >= 500) {
-            EstadoRiesgo e= new Precaucion()
+            EstadoRiesgo e= new Precaucion();
             zona.cambiarEstado(e);
             e.entrar(zona);
         }

@@ -8,7 +8,7 @@ public class PlazoFijo extends ProductoFinanciero {
     private int dias;
     private double interesDiario;
     
-    public PlazoFijo(int dias,double interesDioario){
+    public PlazoFijo(int dias,double interesDiario){
         super();
         this.dias=dias;
         this.interesDiario=interesDiario;
