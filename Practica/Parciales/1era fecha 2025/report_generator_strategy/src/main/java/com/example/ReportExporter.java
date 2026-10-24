@@ -1,5 +1,6 @@
 package com.example;
 
-public class ReportExporter {
+public interface ReportExporter {
 
+    void export(Document document, ReportSaver saver);
 }

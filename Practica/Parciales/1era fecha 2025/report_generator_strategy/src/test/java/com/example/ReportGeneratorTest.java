@@ -1,9 +1,16 @@
 package com.example;
 
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class ReportGeneratorTest {
+
+    private Document document;
+    private ReportSaver saver;
+    private ReportGenerator generatorPDF;
+    private ReportGenerator generatorXLS;
 
     @BeforeEach
     void setUp() {
@@ -19,11 +26,11 @@ public class ReportGeneratorTest {
 
     @Test
     void testPDF() {
-        generatorPDF.generateReport(document);
+        assertDoesNotThrow(() -> generatorPDF.generateReport(document));
     }
 
     @Test
     void testXLS() {
-        generatorXLS.generateReport(document);
+        assertDoesNotThrow(() -> generatorXLS.generateReport(document));
     }
 }

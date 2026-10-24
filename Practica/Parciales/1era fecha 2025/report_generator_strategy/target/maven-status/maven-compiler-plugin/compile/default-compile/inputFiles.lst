@@ -1,5 +1,8 @@
 /Users/maximosimonetti/Documents/GitHub/OO2/Practica/Parciales/1era fecha 2025/report_generator_strategy/src/main/java/com/example/Document.java
+/Users/maximosimonetti/Documents/GitHub/OO2/Practica/Parciales/1era fecha 2025/report_generator_strategy/src/main/java/com/example/DocumentFile.java
+/Users/maximosimonetti/Documents/GitHub/OO2/Practica/Parciales/1era fecha 2025/report_generator_strategy/src/main/java/com/example/ExcelWriter.java
 /Users/maximosimonetti/Documents/GitHub/OO2/Practica/Parciales/1era fecha 2025/report_generator_strategy/src/main/java/com/example/PDFExporter.java
+/Users/maximosimonetti/Documents/GitHub/OO2/Practica/Parciales/1era fecha 2025/report_generator_strategy/src/main/java/com/example/PDFExporterEngine.java
 /Users/maximosimonetti/Documents/GitHub/OO2/Practica/Parciales/1era fecha 2025/report_generator_strategy/src/main/java/com/example/Persona.java
 /Users/maximosimonetti/Documents/GitHub/OO2/Practica/Parciales/1era fecha 2025/report_generator_strategy/src/main/java/com/example/ReportExporter.java
 /Users/maximosimonetti/Documents/GitHub/OO2/Practica/Parciales/1era fecha 2025/report_generator_strategy/src/main/java/com/example/ReportGenerator.java
