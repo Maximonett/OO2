@@ -1,0 +1,56 @@
+@startuml
+' Configuración de estilo para un diseño más limpio
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+skinparam shadowing false
+skinparam packageStyle rectangle
+
+' Clase base (Abstracta)
+abstract class Vehiculo {
+  - marca: String
+  - modelo: String
+  - anio: int
+  - color: String
+  
+  + arrancar(): void
+  + detener(): void
+  + acelerar(): void
+}
+
+' Subclases
+class Auto {
+  - numeroPuertas: int
+  - tipoCombustible: String
+  
+  + abrirMaletero(): void
+}
+
+class Camion {
+  - capacidadCarga: double
+  - numeroEjes: int
+  
+  + cargarMercancia(): void
+}
+
+class Bicicleta {
+  - tipoCuadro: String
+  - numeroMarchas: int
+  
+  + pedalear(): void
+}
+
+class Moto {
+  - cilindrada: int
+  - tipoFrenos: String
+  
+  + hacerCaballito(): void
+}
+
+' Relaciones de herencia (Generalización)
+' El símbolo <|-- significa "es un" o "hereda de"
+Vehiculo <|-- Auto
+Vehiculo <|-- Camion
+Vehiculo <|-- Bicicleta
+Vehiculo <|-- Moto
+
+@enduml
